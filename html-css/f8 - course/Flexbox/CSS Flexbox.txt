@@ -1,0 +1,19 @@
+            CSS Flexbox ?
+
+    +display:flex|inline-flex => Tạo ra flex container, flex item
+    +flex-direction(dành cho flex-container,thay đổi phương hướng của main axis):row|column =>(mặc định là row)
+    +flex-wrap(dành cho flex container, thay đôi phương hướng của main axis):nowrap(mặc định)|wrap|wrap-reverse => để xuống dòng
+    +flex-basis:<length> (dành cho flex item) => set kích thước cho main size theo chiều main axis
+    +justify-content(dành cho flex container, thay đôi phương hướng của main axis(nằm giữa chiều ngang)):flex-start|flex-end|center|space-between(đẩy các item cách xa nhau ra, không có khoảng trống 2 bên)|space-around(có khoảng trống 2 bên)
+            |space-evenly (khoảng cách mép trái, mép phải bằng nhau)
+    +justify-self(dành cho flex item):flex-start|flex-end|center
+    +align-content:flex-start|flex-end|space-between|space-around|center|stretch (giống justify-content,dành cho flex container, thay đổi phương hướng của cross axis)
+    +align-items(dùng trong flex container, thay đổi phương hướng của cross  (nằm giữa chiều cao)): flex-start|flex-end|center|baseline (căn giữa theo đường cơ sở) |stretch (bám 2 bên cross-start và cross-end)
+    +align-self(dành cho flex item, thay đổi phương hướng của cross axis):flex-start|flex-end|center|baseline|stretch
+    +flex-grow(lớn lên)(dành cho flex item):<number> => thay đổi kích thước của main size
+    +flex-shrink(nhỏ lại)(ngược lại flex-grow):<number> => cố định chiều
+    +flex:<number> => cú pháp short hand của flex-basis, flex-grow, flex-shrink
+    +flex-flow: cú pháp short hand của flex-wrap , flex-direction
+    +order:<number> => thứ tự flex item
+
+    

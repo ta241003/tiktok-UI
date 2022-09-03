@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form đăng ký tài khoản diễn đàn</title>
+    <link rel="stylesheet" href="Bai2.css">
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td class="label">Tên đăng nhập &ensp;</td>
+                <td> <input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label">Mật khẩu &ensp;</td>
+                <td> <input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label">Xác nhận mật khẩu &ensp;</td>
+                <td> <input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label">Địa chỉ Email &ensp;</td>
+                <td> <input type="text"></td>
+            </tr>
+            <tr>
+                <td> &ensp;</td>
+                <td><i> Email này dùng để nhận email kích hoạt tài khoản, lấy lại mật khẩu, thông báo từ ban quản trị...</i></td>
+            </tr>
+            <tr>
+                <td class="label">Xưng danh &ensp;</td>
+                <td> 
+                    <select id="xd" name="xd">
+                        <option value="Ban">Bạn</option>
+                        <option value="Ong">Ông</option>
+                        <option value="Ba">Bà</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">Họ và Tên &ensp;</td>
+                <td> 
+                    <input type="text" placeholder="Họ">
+                    <input type="text" placeholder="Tên đệm" style="width: 100px;">
+                    <input type="text" placeholder="Tên">
+                </td>
+            </tr>
+            <tr>
+                <td class="label">Năm sinh &ensp;</td>
+                <td> <input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label">Giới tính &ensp;</td>
+                <td> 
+                    <input type="radio" name="gender" value="Nữ" checked> Nữ &ensp;
+                    <input type="radio" name="gender" value="Nam"> Nam
+                </td>
+            </tr>
+            <tr>
+                <td class="label">Địa chỉ liên hệ &ensp;</td>
+                <td> <input type="text" style="width: 400px;"></td>
+            </tr>
+            <tr>
+                <td class="label">Tỉnh thành &ensp;</td>
+                <td> 
+                    <select id="tt" name="tt">
+                        <option value="DaNang">Đà Nẵng</option>
+                        <option value="HCM">Hồ Chí Minh</option>
+                        <option value="HaNoi">Hà Nội</option>
+                        <option value="Hue">Huế</option>
+                        <option value="HaiPhong">Hải Phòng</option>
+</select>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">Điện thoại &ensp;</td>
+                <td> <input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label">Di động &ensp;</td>
+                <td> <input type="text"></td>
+            </tr>
+        </table>
+
+        <iframe src="https://dieukhoan.vngcorp.mobi/" width="85%" height="300" style="margin-top: 20px;">
+            <p>Trình duyệt của bạn không hỗ trợ iframe.</p>
+        </iframe>
+        <button>Tôi đồng ý đăng ký thành viên</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,144 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+i {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+}
+.title-ul {
+  margin-right: 140px;
+  margin-top: 1rem;
+}
+.item-nav-list {
+  float: left;
+}
+.mg-list {
+  margin-left: 1rem;
+}
+nav {
+  display: flex;
+  background-color: #0873c5;
+}
+.search-form {
+  margin-left: 2.2rem;
+  position: relative;
+}
+.menu-item {
+  font-size: 0.8rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+.nav-cont {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: auto;
+}
+.main-cont {
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+.left-content {
+  display: flex;
+  flex-direction: row;
+  max-width: 753px;
+  flex: 1;
+}
+.f-lf-content{
+  display: flex;
+  flex-direction: column;
+}
+.paragraph-l-content {
+  max-width: 361px;
+}
+.img-h-content {
+  height: 200px;
+}
+.head-content{
+  display: flex;
+  flex-direction: column;
+}
+.title-dec{
+  padding: 0.2rem;
+  color: #fff;
+  max-width: 187px;
+  background: #0873c5;
+  margin-bottom: 0.4rem;
+  clip-path: polygon(100% 0, 92% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+}
+.search-in {
+  background: #266eb3;
+  padding: 0.8rem 0.1rem;
+  
+  border: 0.6px solid #fff;
+}
+input:focus {
+  
+}
+
+.bi-search {
+  position: absolute;
+  right: 3rem;
+}
+.f-title {
+  width: 100px;
+}
+.title-dec::after {
+  border-color: #0873c5 transparent;
+    right: -15px;
+    top: 0;
+}
+.sponsor-title {
+  width: 100px;
+}
+.link-title {
+  color: #fff;
+}
+.sub-link{
+  display: flex;
+  flex-direction: row;
+}
+.sub-para {
+  margin-left: 1rem;
+}
+.sub-img {
+  width: 130px;
+  /* height: 80px; */
+}
+.sub-content {
+  margin-top: 1rem;
+  padding: 1rem 0;
+  border-top: 1px solid #f1f1f1;
+}
+img {
+  object-fit: cover;
+}
+
+/* right content */
+.right-content-cont {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.r-img-content {
+  width: 287px;
+}
