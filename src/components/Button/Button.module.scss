@@ -1,12 +1,13 @@
 .wrapper {
-    display:inline-flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     min-width: 100px;
     padding: 9px 16px;
-    font-size: 1.6rem;
     border-radius: 4px;
+    font-size: 1.6rem;
     font-weight: 700;
+    font-family: 'ProximaNova', sans-serif;
     cursor: pointer;
     background-color: var(--white);
     border: 1px solid transparent;
@@ -33,6 +34,7 @@
     text-align: center;
 }
 
+// Button types
 .rounded {
     border-radius: 999px;
     box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
@@ -51,13 +53,14 @@
 
     &:hover {
         border-color: var(--primary);
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), #FE2C55;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), #fe2c55;
     }
 }
 
 .outline {
     color: var(--primary);
-    
+    border-color: currentColor;
+
     &:hover {
         border-color: currentColor;
         background-color: rgba(254, 44, 85, 0.06);
@@ -69,7 +72,6 @@
         text-decoration: underline;
     }
 }
-
 
 // Button sizes
 .small {
